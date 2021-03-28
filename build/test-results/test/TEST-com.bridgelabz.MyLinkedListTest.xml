@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-26T18:56:44" hostname="LAPTOP-FPFKM2LM" time="0.03">
+<testsuite name="com.bridgelabz.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-28T08:27:04" hostname="LAPTOP-FPFKM2LM" time="0.043">
   <properties/>
-  <testcase name="givenThreeNumber_whenAddedToLinkedListShouldNeAddedToTheTop()" classname="com.bridgelabz.MyLinkedListTest" time="0.03"/>
+  <testcase name="given3NumbersWhenInsertingSecondInBetweenShouldPassLinkedList()" classname="com.bridgelabz.MyLinkedListTest" time="0.043"/>
   <system-out><![CDATA[Print statement
-My Nodes are: 70->30->56
+My Nodes are: 56->30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
