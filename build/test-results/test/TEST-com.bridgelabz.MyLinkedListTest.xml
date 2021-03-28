@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-28T09:08:30" hostname="LAPTOP-FPFKM2LM" time="0.022">
+<testsuite name="com.bridgelabz.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-28T09:23:27" hostname="LAPTOP-FPFKM2LM" time="0.028">
   <properties/>
-  <testcase name="givenElementToSearchWhenMatchShouldPassLinkedListResult()" classname="com.bridgelabz.MyLinkedListTest" time="0.022"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="given4NumbersWhenInsertingThirdInBetweenShouldPassLinkedListResult()" classname="com.bridgelabz.MyLinkedListTest" time="0.028"/>
+  <system-out><![CDATA[Print statement
+My Nodes are: 56->30->40->70
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

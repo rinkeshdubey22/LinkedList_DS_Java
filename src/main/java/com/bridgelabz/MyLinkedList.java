@@ -84,5 +84,16 @@ public class MyLinkedList {
         return null;
     }
 
-
+    public INode insertBetweenNodes(INode head, INode newNode, int position) {
+        INode lastNode = head;
+        int count = 1;
+        while (count < position - 1) {
+            lastNode = lastNode.getNext();
+            count++;
+        }
+        INode currentNode = lastNode.getNext();
+        newNode.setNext(currentNode);
+        lastNode.setNext(newNode);
+        return head;
+    }
 }
