@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-28T08:55:41" hostname="LAPTOP-FPFKM2LM" time="0.026">
+<testsuite name="com.bridgelabz.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-28T09:08:30" hostname="LAPTOP-FPFKM2LM" time="0.022">
   <properties/>
-  <testcase name="givenLastElement_WhenDeleted_ShouldPassLinkedListTest()" classname="com.bridgelabz.MyLinkedListTest" time="0.026"/>
-  <system-out><![CDATA[Print statement
-My Nodes are: 56->3070
-]]></system-out>
+  <testcase name="givenElementToSearchWhenMatchShouldPassLinkedListResult()" classname="com.bridgelabz.MyLinkedListTest" time="0.022"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
