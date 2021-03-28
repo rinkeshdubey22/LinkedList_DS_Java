@@ -100,8 +100,7 @@ public class MyLinkedList {
     public INode deleteFromSequence(INode head, int position) {
         INode previous = head;
         int count = 1;
-        while (count < position - 1)
-        {
+        while (count < position - 1) {
             previous = previous.getNext();
             count++;
         }
@@ -115,11 +114,24 @@ public class MyLinkedList {
     public int lengthOfNode(INode head) {
         INode tempNode = head;
         int setNum = 0;
-        while (tempNode!=null)
-        {
+        while (tempNode!=null) {
             tempNode=tempNode.getNext();
             setNum++;
         }
         return  setNum;
+    }
+
+    public <K> void sortAscendingOrder (INode<K> newNode ) {
+        if (head == null || ((Comparable<K>) head.getKey()).compareTo(newNode.getKey()) > 0) {
+            newNode.setNext(head);
+            head = newNode;
+        } else {
+            INode<K> tempNode = head;
+            while (tempNode.getNext() != null && ((Comparable<K>) tempNode.getNext().getKey()).compareTo(newNode.getKey()) < 0) {
+                tempNode = tempNode.getNext();
+            }
+            newNode.setNext(tempNode.getNext());
+            tempNode.setNext(newNode);
+        }
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-28T09:41:20" hostname="LAPTOP-FPFKM2LM" time="0.024">
+<testsuite name="com.bridgelabz.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-28T09:49:05" hostname="LAPTOP-FPFKM2LM" time="0.033">
   <properties/>
-  <testcase name="given4NumbersWhenDeletingThirdInBetweenShouldPassLinkedListResult()" classname="com.bridgelabz.MyLinkedListTest" time="0.024"/>
+  <testcase name="given4NumbersWhenDeletingThirdInBetweenShouldPassLinkedListResult()" classname="com.bridgelabz.MyLinkedListTest" time="0.033"/>
   <system-out><![CDATA[Print statement
 My Nodes are: 56->30->70
 ]]></system-out>
